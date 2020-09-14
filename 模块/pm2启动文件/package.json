@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "start": "pm2 start pm2dev.config.js --watch ; pm2 logs ",
+    "restart": "pm2 restart all",
+    "delete": "pm2 delete all",
+    "logs": "pm2 logs ",
+    "all": "pm2 delete all",
+    "k": "pm2 kill",
+    "q":"pm2 reload all ; pm2 logs"
+  }
+}
